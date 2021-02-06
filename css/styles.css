@@ -1,0 +1,232 @@
+:root {
+  --blue-text: rgba(33, 150, 243, 1);
+  --black-text: rgba(33, 33, 33, 1);
+  --grey-text: rgba(117, 117, 117, 1);
+  --white-text60: rgba(255, 255, 255, 0.6);
+  --white-text10: rgba(255, 255, 255, 1);
+
+  --background-grey: rgba(47, 48, 58, 1);
+  --background-white: rgba(245, 244, 250, 1);
+  --studio-header: rgba(0, 0, 0, 1);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.header {
+  background-color: var(--white-text10);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.web {
+  color: var(--blue-text);
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.studio {
+  color: var(--black-text);
+}
+
+.contacts-links {
+  color: var(--grey-text);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.links-nav {
+  color: var(--black-text);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.links-nav:hover,
+.links-nav:focus,
+.contacts-links:hover,
+.contacts-links:focus {
+  color: var(--blue-text);
+}
+
+.links-nav.current {
+  color: var(--blue-text);
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-section {
+  background-color: var(--background-grey);
+  text-align: center;
+}
+
+.main-title {
+  color: var(--white-text10);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.main-button {
+  background-color: var(--blue-text);
+  color: var(--white-text10);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.advantages-text {
+  color: var(--grey-text);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.advantages-headings {
+  color: var(--black-text);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.works-title {
+  color: var(--black-text);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-title {
+  color: var(--black-text);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team {
+  background-color: var(--background-white);
+}
+
+.team-names {
+  color: var(--black-text);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+}
+
+.team-text {
+  color: var(--grey-text);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+}
+
+.button {
+  background-color: var(--background-white);
+  color: var(--black-text);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--blue-text);
+  color: var(--white-text10);
+}
+
+.sites {
+  background-color: var(--white-text10);
+}
+
+.sites-name {
+  color: var(--black-text);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+
+.sites-description {
+  color: var(--grey-text);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+}
+
+footer {
+  background-color: var(--background-grey);
+}
+
+.footer-contacts {
+  color: var(--white-text60);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.footer-asdress {
+  color: var(--white-text10);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.studio-footer {
+  color: var(--white-text10);
+}
